@@ -156,5 +156,5 @@ jobs:
         
     - name: Image - Build and Push
       run: |
-        docker buildx build --push --platform linux/arm64/v8 --tag liyouleo911/openwrt-aarch64:${BUILD_TAG} --tag liyouleo911/openwrt-aarch64:latest . 
+        docker buildx build --push --platform linux/arm64/v8 --tag lqrqw/openwrt-aarch64:${BUILD_TAG} --tag lqrqw/openwrt-aarch64:latest . 
         
